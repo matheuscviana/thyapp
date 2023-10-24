@@ -1,13 +1,36 @@
 import './App.css';
+import Obligations from './Oblies';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-      </header>
+    <>
+      <AppHeader />
+      <AppContainer />
+      <AppFooter />
+    </>
+  );
+}
+
+function AppHeader() {
+  return (
+    <header className='AppHeader'>
+      <h1>ThyObli</h1>
+    </header>
+  );
+}
+
+function AppContainer() {
+  return (
+    <div className='AppContainer'>
+      <Obligations />
     </div>
   );
 }
 
-export default App;
+function AppFooter() {
+  return (
+    <footer className='AppFooter'>
+      <p>© Matheus Viana</p>
+    </footer>
+  );
+}

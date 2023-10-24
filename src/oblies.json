@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Obligation 1",
+    "description": "Obligation 1.",
+    "dateCreation": "2023-10-01",
+    "dateStart": "2023-10-01",
+    "dateEnd": "2023-10-10",
+    "status": "Completed",
+    "observations": "",
+    "correlation": null
+  },
+  {
+    "id": 2,
+    "title": "Obligation 2",
+    "description": "Obligation 2.",
+    "dateCreation": "2023-10-18",
+    "dateStart": "2023-10-19",
+    "dateEnd": "2023-10-31",
+    "status": "In Progress",
+    "observations": "",
+    "correlation": null
+  },
+  {
+    "id": 3,
+    "title": "Obligation 3",
+    "description": "Obligation 3.",
+    "dateCreation": "2023-10-01",
+    "dateStart": "2023-10-01",
+    "dateEnd": "2023-10-10",
+    "status": "Frozen",
+    "observations": "Paralizada porque deu xabu.",
+    "correlation": null
+  },
+  {
+    "id": 4,
+    "title": "Obligation 4",
+    "description": "Obligation 4.",
+    "dateCreation": "2023-10-23",
+    "dateStart": "2023-11-01",
+    "dateEnd": "2023-11-15",
+    "status": "Scheduled",
+    "observations": "",
+    "correlation": 1
+  }
+]

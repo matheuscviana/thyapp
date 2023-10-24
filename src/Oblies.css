@@ -1,0 +1,41 @@
+:root {
+  --appgray: #282c34;
+  --appwhite: #f0f0f0;
+  --appgold: #ff9900;
+  --appcyan: #00ccff;
+}
+
+.Obligation {
+  background-color: var(--appgray);
+  min-height: 100px;
+  min-width: 100%;
+  padding: 0px 0px 2px;
+  border: 1px solid var(--appcyan);
+  color: var(--appwhite);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.ObliHead {
+  margin: 0px 0px 3px;
+  font-weight: bold;
+  font-size: calc(4px + 2vmin);
+  box-sizing: border-box;
+}
+
+.ObliHead > span {
+  display: inline-block;
+  margin: 0;
+  padding: 1px 5px;
+  min-width: 16.66%;
+  box-sizing: border-box;
+  color: var(--appgold);
+}
+
+.ObliDes, .ObliObs {
+  width: 100%;
+  text-align: justify;
+  /*overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;*/
+}
